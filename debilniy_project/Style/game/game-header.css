@@ -1,0 +1,44 @@
+header {
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+  }
+  
+  .head-content {
+    font-weight: bold;
+    font-size: 38px;
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+  }
+  
+  .head-content p {
+    margin-left: 20px;
+  }
+  
+  header a {
+    margin-left: 20px;
+  }
+  
+  .forum {
+    width: 50px;
+    margin-right: 100px;
+  }
+  
+  .log_in {
+    width: 50px;
+    margin-right: 300px;
+  }
+  
+  .infoGuide {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+  }
+  
+  .infoGuide a:not(:last-child) {
+    margin-right: 100px;
+  }
+  

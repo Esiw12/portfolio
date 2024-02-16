@@ -1,0 +1,7 @@
+1.background game изменить
+2.выравнить лвл и index.
+3.добавить стиль кнопке
+4.дописать canvas game
+max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+ --container-width:1240px ;
+  --container-padding-x:20px;

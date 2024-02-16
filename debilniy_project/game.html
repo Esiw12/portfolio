@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="/Style/game/game-footer.css">
+  <link rel="stylesheet" href="/Style/game/game-header.css">
+  <link rel="stylesheet" href="/Style/game/game.css">
+</head>
+<body>
+  <header>
+    <div class="head-content">
+      <a href=""><img class="forum" src="/image/krevetka.png" /></a>
+      <p>Crystal Tech</p>
+    </div>
+    <div class="infoGuide">
+      <a href="/sprav.html"><img class="forum" src="/image/sprav.png" /></a>
+      <a href="forum.html"><img class="forum" src="/image/forum.png" /></a>
+      <a href="#modal" id="openModal"
+        ><img class="log_in" src="/image/login.png" alt="Login"
+      /></a>
+    </div>
+  </header>
+  <main>  
+  <div class="container">
+    <div class="game-panel">
+     
+      <canvas id="game-canvas" class="game-canvas"></canvas>
+      <div id="circles-container"></div>
+    </div>
+    <div class="left-panel">
+      <div class="terminal">
+        <div class="output" id="output"></div>
+        <div class="input-container">
+          <span>$</span>
+          <input type="text" id="terminal-input" autofocus>
+        </div>
+      </div>
+      <div class="task-panel">
+        <h2>Задание</h2>
+        <ul id="task-list">
+       
+        </ul>
+      </div>
+    </div>
+  </div>
+</main>
+  <div id="score-counter">Счет: 0</div>
+  <footer>
+    <div class="footer-logo">
+      <a href=""><img src="/image/krevetka.png" /></a>
+    </div>
+    <div class="footer-information">
+      <p>
+        © 2023-2024 ООО Crystal Tech<br />
+        ПО ООО Crystal Tech состоит в реестре отечественного ПО<br />
+        <a class="link" href="#">Пользовательские соглашения</a><br />
+        <a class="link" href="#">Политика конфиденциальности</a>
+      </p>
+    </div>
+    <div class="footer-social">
+      <div class="social-icons">
+        <a href="https://t.me/esiw_yar"
+          ><img class="forum" src="/image/TG.png"
+        /></a>
+        <a href="https://vk.com/esiw_yar"
+          ><img class="forum" src="/image/VK.png"
+        /></a>
+        <a href=""><img class="forum" src="/image/you.png" /></a>
+        <a href=""><img class="forum" src="/image/what.png" /></a>
+      </div>
+    </div>
+  </footer>
+  <script src="/js/script.js"></script>
+  <script src="/js/game.js"></script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+
+  <link rel="stylesheet" href="/Style/index/main.css" />
+  <link rel="stylesheet" href="/Style/index/header.css" />
+  <link rel="stylesheet" href="/Style/index/footer.css" />
+  <link rel="stylesheet" href="/Style/index/circle.css" />
+  <link rel="stylesheet" href="/Style/modal.css" />
+  <link href="https://fonts.cdnfonts.com/css/molle" rel="stylesheet" />
+  <link href="https://fonts.cdnfonts.com/css/inter" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="circle-container">
+    <svg width="779" height="619" viewBox="0 0 779 619" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M4 5C21.5868 20.9355 77.8644 47.6581 162.281 27.0645C267.802 1.32258 305.838 31.9677 309.519 69.9677C314.269 119 26.0857 225.645 60.4413 282.032C94.7968 338.419 632.216 -6.03226 664.117 95.7097C696.019 197.452 189.275 356.806 262.894 431.581C336.513 506.355 646.94 229.323 688.657 316.355C730.375 403.387 515.652 405.839 622.4 501.452C707.798 577.942 761.049 607.688 777 613"
+        stroke="url(#paint0_linear_218_212)" stroke-width="11" />
+      <defs>
+        <linearGradient id="paint0_linear_218_212" x1="83.754" y1="4.99998" x2="718.775" y2="586.64"
+          gradientUnits="userSpaceOnUse">
+          <stop stop-color="white" stop-opacity="0" />
+          <stop offset="0.465" stop-color="white" />
+          <stop offset="1" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+      </defs>
+    </svg>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+  </div>
+  <header>
+    <div class="head-content">
+      <a href=""><img class="forum" src="/image/krevetka.png" /></a>
+      <p>Crystal Tech</p>
+    </div>
+    <div class="infoGuide">
+      <a href="/sprav.html"><img class="forum" src="/image/sprav.png" /></a>
+      <a href="forum.html"><img class="forum" src="/image/forum.png" /></a>
+      <a href="#modal" id="openModal"><img class="log_in" src="/image/log.png" alt="Login" /></a>
+    </div>
+  </header>
+
+  <main>
+
+    <div id="modal">
+      <div class="wrapper">
+        <div class="card-switch">
+          <label class="switch">
+            <input class="toggle" type="checkbox" />
+            <span class="slider"></span>
+            <span class="card-side"></span>
+            <div class="flip-card__inner">
+              <div class="flip-card__front">
+                <div class="circle_modal_front">
+
+                </div>
+                <a href="" id="close_modal"><img class="krest" src="/image/krestik.png" /></a>
+                <div class="title">Log in</div>
+                <form action="/routes/userRouter/login" method="POST" class="flip-card__form" id="loginForm">
+                  <input type="email" placeholder="Email" name="email" class="flip-card__input" />
+
+                  <input type="password" placeholder="Password" name="password" class="flip-card__input" />
+                  <button class="flip-card__btn">Let`s go!</button>
+                </form>
+              </div>
+              <div class="flip-card__back">
+                <div class="circle_modal_back"></div>
+                <a href="" id="close_modal"><img class="krest" src="/image/krestik.png" /></a>
+                <div class="title">Sign up</div>
+                <form class="flip-card__form" id="registerForm">
+                  <input type="text" placeholder="Name" name="username" class="flip-card__input" />
+                  <input type="email" placeholder="Email" name="email" class="flip-card__input" />
+                  <input type="password" placeholder="Password" name="password" class="flip-card__input" />
+                  <button type="submit" class="flip-card__btn">Confirm!</button>
+                </form>
+              </div>
+            </div>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-container">
+      <div class="main-text">
+        <div class="text-zagolovok">
+          <p>
+            <b>Дорогой друг, мы рады </b><br />
+            видеть тебя здесь!
+          </p>
+        </div>
+        <div class="text-information">
+          <p>
+            Наша команда разработчиков<br />
+            создала данный сайт для того,<br />
+            чтобы тебе было легче учить<br />
+            языки программирования.
+          </p>
+        </div>
+        <div class="text-information">
+          <p>
+            Обучение будет проходить в<br />
+            игровом формате, для того<br />
+            чтобы начать игру:
+          </p>
+        </div>
+        <div class="text-information">
+          <p>
+            Скорее жми на любой<br />
+            язык программирования<br />
+            который привлек тебя<br />
+            больше всего.
+          </p>
+        </div>
+      </div>
+
+      <div class="side-images">
+        <div class="top-images">
+          <a href="lvl.html"><img class="js" id="js" src="/image/plaid 1.png" /></a>
+          <div class="spacer"></div>
+          <a href="lvl.html"><img class="c-sharp" id="c-sharp" src="/image/plaid 2.png" /></a>
+        </div>
+        <a href="lvl.html"><img class="pyt" id="pyt" src="/image/plaid 3.png" /></a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-logo">
+      <a href=""><img src="/image/krevetka.png" /></a>
+    </div>
+    <div class="footer-information">
+      <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br />Aenean commodo ligula eget dolor. Aenean massa.
+        <br />Cum sociis natoque penatibus et magnis dis parturient.
+      </p>
+
+    </div>
+    <div class="footer-social">
+      <div class="social-icons">
+        <a href="https://t.me/esiw_yar"><img class="forum" src="/image/TG.png" /></a>
+        <a href="https://vk.com/esiw_yar"><img class="forum" src="/image/VK.png" /></a>
+        <a href=""><img class="forum" src="/image/you.png" /></a>
+        <a href=""><img class="forum" src="/image/what.png" /></a>
+      </div>
+    </div>
+  </footer>
+  <script defer src="js/modal.js"></script>
+
+</body>
+
+</html>

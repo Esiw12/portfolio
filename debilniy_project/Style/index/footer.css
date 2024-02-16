@@ -1,0 +1,49 @@
+@import url("https://fonts.cdnfonts.com/css/Inter");
+footer {
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: #fff;
+  padding: 0px;
+  margin:0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  font-weight: 200;
+  font-size:12px;
+  font-family: "Inter", sans-serif;
+}
+
+.footer-logo {
+  margin-left: 460px;
+}
+.footer-logo,
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.ffooter-information {
+  text-align: center;
+}
+
+.footer-social {
+  margin-right: 260px;
+}
+.footer-social .social-icons {
+  display: flex;
+  align-items: center;
+}
+.social-icons {
+  margin-right: 100px;
+}
+.social-icons .forum {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.link {
+  color: white;
+}
+
