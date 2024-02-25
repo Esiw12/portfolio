@@ -15,7 +15,8 @@ footer {
 }
 
 .footer-logo {
-  margin-left: 460px;
+  margin-left: 400px;
+
 }
 .footer-logo,
 .footer-social {
@@ -38,6 +39,7 @@ footer {
 .social-icons {
   margin-right: 100px;
 }
+
 .social-icons .forum {
   width: 30px;
   height: 30px;
@@ -45,5 +47,8 @@ footer {
 }
 .link {
   color: white;
+}
+.icon_logo{
+  width: 50px;
 }
 

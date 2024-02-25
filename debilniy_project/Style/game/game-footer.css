@@ -1,47 +1,47 @@
 footer {
-    background-color: rgba(0, 0, 0, 0.5); 
-    color: #fff;
-    padding: 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .footer-logo {
-    margin-left: 360px;
-  }
-  .footer-logo,
-  .footer-social {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-  /* Польз. соглашения */
-  .ffooter-information {
-    text-align: center;
-  }
-  /* социальные сети */
-  .footer-social {
-    margin-right: 160px;
-  }
-  .footer-social .social-icons {
-    display: flex;
-    align-items: center;
-  }
-  .social-icons {
-    margin-right: 100px;
-  }
-  .social-icons .forum {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-  }
-  .link {
-    color: white;
-  }
-.footer-logo,.ffooter-information{
-    margin-right: 300px;
+  background-color: rgb(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 200;
 }
-.footer-social{
-    margin-left: 300px;
+
+.footer-logo {
+  margin-left: 360px;
+}
+
+.footer-logo,
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.ffooter-information {
+  text-align: center;
+}
+
+.footer-social {
+  margin-right: 160px;
+}
+
+.footer-social .social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons {
+  margin-right: 100px;
+}
+
+.social-icons .forum {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.link {
+  color: white;
 }

@@ -1,5 +1,5 @@
 @import url("https://fonts.cdnfonts.com/css/Inter");
-
+@import url("https://fonts.cdnfonts.com/css/molle");
 header {
   color: #fff;
   padding: 10px;
@@ -8,6 +8,7 @@ header {
   align-items: center;
   background-color: black;
   font-family: "Inter", sans-serif;
+
 }
 
 .head-content {
@@ -55,15 +56,23 @@ header {
   min-width: 160px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  border-radius: 35px;
+  border: 2px solid #ffffff;
+  background-color: rgba(80, 103, 175, 0.39);
 }
-
+.lvl-text{
+  color:white;
+  font-weight: 400;
+  font-size:24px;
+  font-family: "Molle", cursive, sans-serif;
+  background-color: rgba(161, 93, 170, 0.384);
+  border-radius: 35px;
+  border: 2px solid #ffffff;
+}
 .dropdown-content a {
-  color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
-.dropdown-content a:hover {
-  background-color: #f1f1f1;
-}
+
